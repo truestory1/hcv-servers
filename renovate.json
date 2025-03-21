@@ -10,8 +10,8 @@
     "customManagers": [
       {
         "customType": "regex",
-        "datasourceTemplate": "git-tags",
-        "fileMatch": ["yaml$"],
+        "datasourceTemplate": "github-tags",
+        "fileMatch": ["server01.yaml$"],
         "matchStrings": [
           "#\\s?renovate: repo=(?<depName>.*?)\\sversion:\\s*(?<currentValue>.+?)\\s"
         ]
