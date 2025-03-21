@@ -11,7 +11,7 @@
       {
         "customType": "regex",
         "datasourceTemplate": "git-tags",
-        "fileMatch": [".yaml$"],
+        "fileMatch": ["yaml$"],
         "matchStrings": [
           "#\\s?renovate: repo=(?<depName>.*?)\\s?version:\\s?\\?(?<currentValue>[\\w+\\.\\-]*)"
         ]
