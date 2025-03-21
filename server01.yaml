@@ -1,0 +1,4 @@
+---
+- name: Config
+  version: 0.1
+  repo: https://github.com/truestory1/hcv-config-01.git
