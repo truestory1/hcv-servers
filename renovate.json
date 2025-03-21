@@ -13,7 +13,7 @@
         "datasourceTemplate": "git-tags",
         "fileMatch": ["yaml$"],
         "matchStrings": [
-          "#\\s?renovate: repo=(?<depName>.*?)\\s?version:\\s?\\?(?<currentValue>.+?)\\s"
+          "#\\s?renovate: repo=(?<depName>.*?)\\sversion:\\s*(?<currentValue>.+?)\\s"
         ]
       }
     ]
