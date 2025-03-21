@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "forkProcessing": "enabled",
+  "extends": [
+    "config:recommended",
+    "docker:pinDigests",
+    "helpers:pinGitHubActionDigests"
+  ],
+
+    "customManagers": [
+      {
+        "customType": "regex",
+        "datasourceTemplate": "git-tags",
+        "fileMatch": [".yaml$"],
+        "matchStrings": [
+          "#\\s?renovate: repo=(?<depName>.*?)\\s?version:\\s?\\?(?<currentValue>[\\w+\\.\\-]*)"
+        ]
+      }
+    ]
+
+}

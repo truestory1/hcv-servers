@@ -1,4 +1,5 @@
 ---
 - name: Config
+  # renovate repo=github.com/truestory1/hcv-config-01
   version: 0.1
   repo: https://github.com/truestory1/hcv-config-01.git
