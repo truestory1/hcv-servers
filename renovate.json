@@ -17,7 +17,8 @@
         "matchStrings": [
           "(datasource=(?<datasource>\\S+))? depName=(?<depName>\\S+)( versioning=(?<versioning>.*?))( repository=(?<registryUrl>\\S+))?\\n.+(:\\s|=)(&\\S+\\s)?(?<currentValue>\\S+)"
         ],
-        "datasourceTemplate": "{{#if datasource}}{{{datasource}}}{{else}}git-tags{{/if}}"
+        "datasourceTemplate": "{{#if datasource}}{{{datasource}}}{{else}}git-tags{{/if}}",
+        "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}loose{{/if}}"
       }
     ]
 
