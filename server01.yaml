@@ -1,5 +1,5 @@
 ---
 - name: Config
-  # renovate: datasource=github-tags depName=truestory1/hcv-config-01 versioning=loose
+  # renovate: datasource=git-tags depName=https://github.com/truestory1/hcv-config-01 versioning=loose
   version: 0.1
   repo: https://github.com/truestory1/hcv-config-01.git
