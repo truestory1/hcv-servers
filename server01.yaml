@@ -1,5 +1,5 @@
 ---
 - name: Config01
   # renovate: depName=https://github.com/truestory1/hcv-config-01
-  version: 0.1.1
+  version: v0.1.1
   repo: https://github.com/truestory1/hcv-config-01
